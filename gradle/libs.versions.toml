@@ -1,0 +1,15 @@
+[versions]
+http4k = "6.23.0.0"
+
+[libraries]
+http4k-core = { group = "org.http4k", name = "http4k-core", version.ref = "http4k" }
+http4k-server-netty = { group = "org.http4k", name = "http4k-server-netty", version.ref = "http4k" }
+http4k-format-kotlinx-serialization = { group = "org.http4k", name = "http4k-format-kotlinx-serialization", version.ref = "http4k" }
+http4k-format-jackson = { group = "org.http4k", name = "http4k-format-jackson", version.ref = "http4k" }
+http4k-client-okhttp = { group = "org.http4k", name = "http4k-client-okhttp", version.ref = "http4k" }
+http4k-api-openapi = { group = "org.http4k", name = "http4k-api-openapi", version.ref = "http4k" }
+http4k-api-ui-swagger = { group = "org.http4k", name = "http4k-api-ui-swagger", version.ref = "http4k" }
+
+http4k-ops-micrometer = { group = "org.http4k", name = "http4k-ops-micrometer", version.ref = "http4k" }
+http4k-ops-opentelemetry = { group = "org.http4k", name = "http4k-ops-opentelemetry", version.ref = "http4k" }
+http4k-ops-resilience4j = { group = "org.http4k", name = "http4k-ops-resilience4j", version.ref = "http4k" }
